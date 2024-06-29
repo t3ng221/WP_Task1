@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Winner Picker Spinner</title>
+    <link rel="stylesheet" href="Task1.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="spinner-container">
+        <canvas id="spinner" width="500" height="500"></canvas>
+        <button id="spin">Spin it!</button>
+      </div>
+      <div class="names-container">
+        <h3>Add Names</h3>
+        <textarea id="names" rows="10" cols="30"></textarea>
+        <button id="update-names">Update Names</button>
+      </div>
+    </div>
+
+    <div id="winnerModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="winner"></p>
+      </div>
+    </div>
+
+    <script src="Task1.js"></script>
+  </body>
+</html>
